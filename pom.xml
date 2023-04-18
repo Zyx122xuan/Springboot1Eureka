@@ -11,6 +11,8 @@
         <module>Eureka_Server_13001</module>
         <module>Service_Provider_11001</module>
         <module>Service_Consumer_12001</module>
+        <module>Order_22000</module>
+        <module>Stock_21000</module>
     </modules>
     <groupId>org.example</groupId>
     <artifactId>simple</artifactId>
@@ -52,6 +54,16 @@
                 <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
                 <version>4.0.0</version>
             </dependency>
+
+            <!-- Spring Cloud Alibaba -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2022.0.0.0-RC1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
 
 
 
