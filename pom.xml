@@ -13,6 +13,7 @@
         <module>Service_Consumer_12001</module>
         <module>Order_22000</module>
         <module>Stock_21000</module>
+        <module>Gateway_Server_14000</module>
     </modules>
     <groupId>org.example</groupId>
     <artifactId>simple</artifactId>
@@ -63,9 +64,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
-
-
 
         </dependencies>
     </dependencyManagement>
